@@ -1,0 +1,35 @@
+Reference:
+-----------
+
+https://www.rosehosting.com/blog/install-and-configure-tinyproxy/
+
+
+
+1. Installation:
+----------------
+
+sudo apt-get install tinyproxy
+
+
+
+2. Configuration:
+-------------------
+open /etc/tinyproxy.conf with root user or [sudo permission] in nano or vim editor..
+
+sudo nano /etc/tinyproxy.conf
+
+update following...
+
+Allow 127.0.0.1
+Allow your.local.ip.address
+
+
+3. run Tiny Proxy Server
+--------------------------
+
+sudo /etc/init.d/tinyproxy restart
+
+
+
+
+
